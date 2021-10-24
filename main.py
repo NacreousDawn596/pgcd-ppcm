@@ -28,8 +28,7 @@ try:
 	f = eval(sys.argv[2])
 	s = eval(sys.argv[3])
 except IndexError:
-	 for h in sys.argv[2::]:
-	 	check(h)
+	 pass
 
 if types == "pgcd":
 	res = pgcd(f, s)
